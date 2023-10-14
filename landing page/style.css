@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body and header */
+body {
+    font-family: Arial, sans-serif;
+    background-color:burlywood;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the ewww section */
+.ewww {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url('eww-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.ewww h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.ewww p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align:center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color:yellow
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Style the dest section */
+.dest {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.dest h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.dest {
+    margin-bottom: 20px;
+}
+
+.dest img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.dest h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.dest p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style the contact section */
+.contact {
+    background-color:blue;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.contact h2 {
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        margin-top: 40px;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .destinations h2 {
+        font-size: 24px;
+    }
+
+    .destination h3 {
+        font-size: 20px;
+    }
+
+    .destination p {
+        font-size: 14px;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+    }
+
+    .contact p {
+        font-size: 16px;
+    }
+}
